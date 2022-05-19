@@ -12,3 +12,6 @@ body{
 a{
     text-decoration: none;
 }
+.row-top-header{
+    height: 45px;
+}
