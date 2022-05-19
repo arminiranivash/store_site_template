@@ -6,3 +6,9 @@
     url('../fonts/Vazir-Medium.woff') format('woff'),
     url('../font/Vazir-Medium.ttf') format('truetype');
 }
+body{
+    font-family: 'vazir';
+}
+a{
+    text-decoration: none;
+}
