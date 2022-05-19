@@ -34,4 +34,77 @@ a{
     color: #FED34A;
     border-bottom: 2px solid #FED34A;
 }
+.btn-success:hover{
+    background-color: #FED34A;
+    color: #000;
+}
 
+
+.slider {
+    position: relative;
+    height: calc(100vh - 133px);
+    
+  }
+
+  .slider {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    font-family: 'vazir';
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .slide-one{
+    background: linear-gradient(180deg,rgba(23, 210, 95, 0.2) , rgba(4, 122, 24, 0.5) 80%) , url(../img/slider-one.jpg) fixed 0 40%/cover;
+      
+  }
+  .slide-two{
+    background: linear-gradient(180deg,rgba(23, 210, 95, 0.2) , rgba(4, 122, 24, 0.5) 80%) , url(../img/slider-two.jpg) fixed 0 40%/cover;
+  }
+  .slide-three{
+    background: linear-gradient(180deg,rgba(23, 210, 95, 0.2) , rgba(4, 122, 24, 0.5) 80%) , url(../img/slider-three.jpg) fixed 0 40%/cover;
+  }
+
+  @media (min-width:768px) {
+    .btn-success{
+        font-size: 1.2rem;
+    }
+    
+    .slide-p{
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+  }
