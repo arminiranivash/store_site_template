@@ -98,7 +98,26 @@ a{
     background: linear-gradient(180deg,rgba(23, 210, 95, 0.2) , rgba(4, 122, 24, 0.5) 80%) , url(../img/slider-three.jpg) fixed 0 40%/cover;
   }
 
-  @media (min-width:768px) {
+  
+  
+  .card1{
+    background-color: #47A15D;
+  }
+  .card2{
+    background-color: #FED34A;
+  }
+  .card3{
+    background-color: #B8D94F;
+  }
+  
+  .card-title{
+    font-size: xx-large;
+  }
+
+
+
+
+  @media (min-width:992px) {
     .btn-success{
         font-size: 1.2rem;
     }
@@ -106,5 +125,18 @@ a{
     .slide-p{
         font-size: 1.5rem;
         line-height: 2.5rem;
+    }
+
+    
+  }
+
+  
+
+  @media (min-width:400px) and (max-width:768px){
+    .col{
+      width: 75%;
+    }
+    .card-section{
+      justify-content: center;
     }
   }
