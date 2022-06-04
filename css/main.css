@@ -116,7 +116,6 @@ a{
 
   
   .banner{
-    /* height: 32.444rem; */
     color: #198754;
   }
 
@@ -143,7 +142,7 @@ a{
     align-items: center;
     margin: 0 auto;
     background-color: #47A15D;
-    opacity: 0.8;
+    opacity:1;
     background-image:  radial-gradient(#ffffff 1.05px, transparent 1.05px), radial-gradient(#ffffff 1.05px, #47A15D 1.05px);
     background-size: 42px 42px;
     background-position: 0 0,21px 21px;
@@ -167,7 +166,7 @@ a{
     }
 
     .banner{
-      background: url(../img/banner.webp);
+      background: url(../img/banner.webp) center center/cover;
       height: 32.444rem;
     }
 
