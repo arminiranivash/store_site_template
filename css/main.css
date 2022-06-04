@@ -121,6 +121,39 @@ a{
   }
 
 
+  .parrent-category{
+    background-color: #F6F5F0;
+    opacity: 0.8;
+    background-image:  radial-gradient(#ffffff 1.75px, transparent 1.75px), radial-gradient(#ffffff 1.75px, #F6F5F0 1.75px);
+    background-size: 70px 70px;
+    background-position: 0 0,35px 35px;
+  }
+  .parrent-category h2{
+    color: #B8D94F;
+  }
+  .parrent-category h5{
+    color: #47A15D;
+  }
+
+  .category-card{
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #47A15D;
+    opacity: 0.8;
+    background-image:  radial-gradient(#ffffff 1.05px, transparent 1.05px), radial-gradient(#ffffff 1.05px, #47A15D 1.05px);
+    background-size: 42px 42px;
+    background-position: 0 0,21px 21px;
+  }
+  .category-card img{
+    width: 60px;
+    height: 60px;
+  }
+
+
 
 
   @media (min-width:992px) {
