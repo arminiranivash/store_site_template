@@ -116,8 +116,7 @@ a{
 
   
   .banner{
-    background: url(../img/banner.webp);
-    height: 32.444rem;
+    /* height: 32.444rem; */
     color: #198754;
   }
 
@@ -132,6 +131,11 @@ a{
     .slide-p{
         font-size: 1.5rem;
         line-height: 2.5rem;
+    }
+
+    .banner{
+      background: url(../img/banner.webp);
+      height: 32.444rem;
     }
 
     
