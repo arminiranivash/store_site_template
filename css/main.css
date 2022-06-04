@@ -114,6 +114,13 @@ a{
     font-size: xx-large;
   }
 
+  
+  .banner{
+    background: url(../img/banner.webp);
+    height: 32.444rem;
+    color: #198754;
+  }
+
 
 
 
